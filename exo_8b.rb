@@ -1,5 +1,5 @@
 #demandons le prenoms
-print"bonjour,"
-print "!"
-After_Name = gets.champ
-print After_Name
+puts " Quel est votre prenom?"
+AfterName = gets.chomp
+puts AfterName
+puts "bonjour," + AfterName + "!"
